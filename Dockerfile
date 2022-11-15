@@ -14,8 +14,8 @@ RUN npm install
 # copy all files from current directory into the working directory
 COPY . .
 
-# expose port 5000 of the container
-EXPOSE 5000
+# expose port 8080 of the container
+EXPOSE 8080
 
 # run node app.js command when inside the container
 CMD ["node", "app.js"]
